@@ -48,6 +48,3 @@ You can also try the hosted version of the project, which uses PostgreSQL, from 
 
 For any questions or comments, please contact [ahmed.ehab.elsayad@gmail.com](mailto:ahmed.ehab.elsayad@gmail.com).
 
----
-
-Thank you for using this project! Happy coding!

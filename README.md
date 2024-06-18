@@ -22,7 +22,7 @@ To run the project on your device, follow these steps:
    - Select `File > Open Folder...` and navigate to the extracted folder to open it.
 
 4. **Install Dependencies**:
-   - Open the terminal in VS Code (`Ctrl + `` or `View > Terminal`).
+   - Open the terminal in VS Code (`Ctrl + `` or (View > Terminal)`).
    - Run the following command to install the necessary dependencies:
      ```bash
      npm install

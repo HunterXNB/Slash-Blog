@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Slash Blog
+
+This repository contains a project with two branches:
+- **main**: Implemented using PostgreSQL.
+- **sqlite**: Implemented using SQLite.
 
 ## Getting Started
 
-First, run the development server:
+To run the project on your device, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### SQLite Branch
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Download the ZIP**:
+   - Go to the [sqlite branch](https://github.com/HunterXNB/Slash-Blog/tree/sqlite).
+   - Click on the `Code` button and select `Download ZIP`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Extract Files**:
+   - Extract the downloaded ZIP file to a desired location on your computer.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Open in VS Code**:
+   - Open Visual Studio Code (VS Code).
+   - Select `File > Open Folder...` and navigate to the extracted folder to open it.
 
-## Learn More
+4. **Install Dependencies**:
+   - Open the terminal in VS Code (`Ctrl + `` or `View > Terminal`).
+   - Run the following command to install the necessary dependencies:
+     ```bash
+     npm install
+     ```
 
-To learn more about Next.js, take a look at the following resources:
+5. **Run the Project**:
+   - In the terminal, run the following command to start the development server:
+     ```bash
+     npm run dev
+     ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Hosted PostgreSQL Version
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can also try the hosted version of the project, which uses PostgreSQL, from [this link](https://slash-blog-iqki.vercel.app/).
 
-## Deploy on Vercel
+## Branches
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **main**: PostgreSQL implementation.
+- **sqlite**: SQLite implementation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contact
+
+For any questions or comments, please contact [ahmed.ehab.elsayad@gmail.com](mailto:ahmed.ehab.elsayad@gmail.com).
+

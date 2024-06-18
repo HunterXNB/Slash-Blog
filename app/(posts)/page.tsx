@@ -1,8 +1,7 @@
 import Posts from "@/components/Posts";
-import prisma from "@/lib/db";
 import StyledMain from "@/styles/StyledMain";
 import { Suspense } from "react";
-import HomeLoadingPage from "./loading";
+import Loading from "@/components/Loading";
 interface IProps {
   searchParams: {
     page: string;
@@ -13,7 +12,7 @@ export default function HomePage({ searchParams: { page } }: IProps) {
   return (
     <StyledMain>
       <h1>Posts</h1>
-      <Suspense fallback={<HomeLoadingPage />}>
+      <Suspense key={page} fallback={<Loading />}>
         <Posts p={page} />
       </Suspense>
     </StyledMain>

@@ -12,11 +12,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/error-message": "^2.0.1",
+    "@hookform/resolvers": "^3.6.0",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.4",
     "@prisma/client": "^5.15.0",
+    "@types/mdx": "^2.0.13",
     "next": "14.2.4",
+    "next-mdx-remote": "^5.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "styled-components": "^6.1.11"
+    "react-hook-form": "^7.52.0",
+    "react-hot-toast": "^2.4.1",
+    "styled-components": "^6.1.11",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",

@@ -50,5 +50,57 @@ const StyledMain = styled.main<{ styles?: string }>`
       cursor: not-allowed;
     }
   }
+  #post-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 30px;
+    width: 70%;
+    max-width: 750px;
+    min-width: 300px;
+    margin: auto;
+    .form-control {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      gap: 10px;
+      input,
+      textarea {
+        outline: none;
+        padding: 8px;
+        border: 1px solid;
+        border-color: var(--color-grey-400);
+        border-radius: 8px;
+        caret-color: var(--color-indigo-700);
+        color: var(--color-indigo-700);
+      }
+      textarea {
+        resize: vertical;
+        height: 200px;
+      }
+      .error-message {
+        color: red;
+      }
+    }
+    button {
+      background-color: var(--color-indigo-700);
+      outline: none;
+      border: none;
+      padding: 15px 32px;
+      border-radius: 8px;
+      color: white;
+      align-self: flex-end;
+      &:hover,
+      &:disabled {
+        background-color: var(--color-indigo-100);
+        color: var(--color-indigo-700);
+      }
+      &:disabled {
+        cursor: not-allowed;
+      }
+    }
+  }
 `;
 export default StyledMain;

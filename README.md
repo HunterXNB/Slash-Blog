@@ -1,4 +1,4 @@
-# Project Name
+# Slash Blog
 
 This repository contains a project with two branches:
 - **main**: Implemented using PostgreSQL.
